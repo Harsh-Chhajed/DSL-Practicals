@@ -6,7 +6,7 @@ def avg(list1):
   for x in list1:
     if x<0:
       continue
-    sum=x+sum;
+    sum=x+sum
     n=n+1
   avg=sum/n
   return avg
